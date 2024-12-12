@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação Enviada</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #2190ff;
+            height: 70vh; 
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end; 
+            align-items: center;
+        }
+
+
+        .message {
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+           margin-bottom: 20px;
+           margin-top: 100px;
+           text-align: justify;
+           animation: slideDown 1.5s ease-out;
+        }
+
+
+        a{
+        width: auto;
+        height: 100px;
+        margin-top: 100px;
+        animation: slideDown 1.5s ease-out;
+        }
+
+
+        @keyframes slideDown {
+            0% {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+    </style>
+        <link rel="icon" href="../img/logo.png" type="image/png">
+</head>
+<body>
+
+    <img src="../img/logo.png" alt="Imagem de exemplo" style="animation: slideDown 1.5s ease-out;">
+
+    <div class="message">
+        Bem-vindo a Idiomas sem Fronteiras, onde tornamos possivel seus sonhos internacionais
+    </div>
+    
+    <a href="../index.html">
+        <img src="../img/home-Photoroom.png" alt="Home" />
+    </a>
+
+</body>
+</html>
