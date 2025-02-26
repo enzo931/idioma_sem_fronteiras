@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idiomas Sem Fronteiras - Criar Conta</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" href="../img/logo.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="logo">
+                <img src="../img/logo.png" alt="Idiomas Sem Fronteiras">
+            </div>
+        </div>
+        <div class="right-panel">
+            <h2>Logar na plataforma</h2>
+            <form id="form-login">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="E-mail de inscrição" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="Senha" required>
+                </div><br><br><br><br><br><br><br><br>
+                <div class="logar">
+                    <!-- Alteração do tipo de botão para evitar o envio automático -->
+                    <button type="button" onclick="validarCampos()">Entrar na Conta</button>
+                </div><br><br>
+                <a href="../html/cadastre-se.html">Não tem uma conta? Clique aqui para criar uma</a>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
+
