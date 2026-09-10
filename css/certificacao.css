@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-=======
+
 /* ==========================================
    ESTILOS GERAIS & BASE
    ========================================== */
@@ -10,16 +10,13 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   overflow-x: hidden;
->>>>>>> 37c0f9c (Initial commit)
 }
 
 header {
   width: 100%;
   color: white;
-<<<<<<< HEAD
-=======
   text-align: center;
->>>>>>> 37c0f9c (Initial commit)
+
 }
 
 .top-bar {
@@ -27,11 +24,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-<<<<<<< HEAD
-=======
+
   flex-wrap: wrap;
   gap: 15px;
->>>>>>> 37c0f9c (Initial commit)
 }
 
 .logo {
@@ -40,32 +35,32 @@ header {
 }
 
 .logo img {
-<<<<<<< HEAD
+
   width: 300px;
   height: auto;
   margin-right: 10px;
 }
 
-=======
+
   width: 100%;
   max-width: 280px;
   height: auto;
 }
 
 /* Grupos de Bandeiras e Pesquisa */
->>>>>>> 37c0f9c (Initial commit)
+
 .language-flags {
   display: flex;
   align-items: center;
   gap: 10px;
-<<<<<<< HEAD
+
 }
 
 .language-flags img {
   width: 100px;
   height: auto;
   border-radius: 8px;
-=======
+
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -80,26 +75,26 @@ header {
   width: 60px;
   height: auto;
   border-radius: 4px;
->>>>>>> 37c0f9c (Initial commit)
+
 }
 
 .search-container {
   position: relative;
-<<<<<<< HEAD
+
   width: 500px;
-=======
+
   width: 100%;
   max-width: 400px;
->>>>>>> 37c0f9c (Initial commit)
+
 }
 
 .search-input {
   width: 100%;
-<<<<<<< HEAD
+
   padding: 15px 10px 10px 50px;
-=======
+
   padding: 12px 10px 12px 45px;
->>>>>>> 37c0f9c (Initial commit)
+
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 20px;
@@ -108,7 +103,7 @@ header {
 
 .search-icon {
   position: absolute;
-<<<<<<< HEAD
+
   top: 60%;
   left: 10px; 
   transform: translateY(-50%);
@@ -131,7 +126,7 @@ header {
 .navbar h1{
   font-size: 40px;
   margin-left: 80px;
-=======
+
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
@@ -225,14 +220,14 @@ main {
   color: #333;
   text-align: center;
   padding: 20px 0;
->>>>>>> 37c0f9c (Initial commit)
+
 }
 
 .main-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
+
   padding: 40px;
   color: white;
 }
@@ -327,7 +322,7 @@ footer {
 .submenu-dropdown .sd-item a {
   width: 100%;
   padding: 16px;
-=======
+
   padding: 60px 40px;
   gap: 40px;
   max-width: 1200px;
@@ -391,12 +386,12 @@ footer {
 /* Animações */
 .animated-slide {
   animation: slideDown 1.5s ease-out;
->>>>>>> 37c0f9c (Initial commit)
+
 }
 
 @keyframes slideDown {
   0% {
-<<<<<<< HEAD
+
       transform: translateY(-15%);
       opacity: 0;
   }
@@ -404,16 +399,9 @@ footer {
       transform: translateY(0);
       opacity: 1;
   }
+
 }
-=======
-    transform: translateY(-20px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
+
 
 /* ==========================================
    RODAPÉ
@@ -534,4 +522,4 @@ footer {
   }
 }
 }
->>>>>>> 37c0f9c (Initial commit)
+

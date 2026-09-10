@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -7,7 +7,7 @@ body {
 header {
   width: 100%;
   color: white;
-=======
+
 /* ==========================================
    ESTILOS GERAIS & BASE
    ========================================== */
@@ -24,7 +24,7 @@ header {
   width: 100%;
   color: white;
   text-align: center;
->>>>>>> 37c0f9c (Initial commit)
+
 }
 
 .top-bar {
@@ -32,11 +32,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-<<<<<<< HEAD
-=======
+
   flex-wrap: wrap;
   gap: 15px;
->>>>>>> 37c0f9c (Initial commit)
+
 }
 
 .logo {
@@ -45,25 +44,25 @@ header {
 }
 
 .logo img {
-<<<<<<< HEAD
+
   width: 300px;
   height: auto;
   margin-right: 10px;
 }
 
-=======
+
   width: 100%;
   max-width: 280px;
   height: auto;
 }
 
 /* Grupos de Bandeiras e Busca */
->>>>>>> 37c0f9c (Initial commit)
+
 .language-flags {
   display: flex;
   align-items: center;
   gap: 10px;
-<<<<<<< HEAD
+
 }
 
 .language-flags img {
@@ -75,7 +74,7 @@ header {
 .search-container {
   position: relative;
   width: 500px;
-=======
+
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -97,16 +96,16 @@ header {
   position: relative;
   width: 100%;
   max-width: 400px;
->>>>>>> 37c0f9c (Initial commit)
+
 }
 
 .search-input {
   width: 100%;
-<<<<<<< HEAD
+
   padding: 15px 10px 10px 50px;
-=======
+
   padding: 12px 10px 12px 45px;
->>>>>>> 37c0f9c (Initial commit)
+
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 20px;
@@ -115,7 +114,7 @@ header {
 
 .search-icon {
   position: absolute;
-<<<<<<< HEAD
+
   top: 60%;
   left: 10px; 
   transform: translateY(-50%);
@@ -288,7 +287,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 20px; /* Adiciona um espaço entre os ícones */
-=======
+
   top: 50%;
   left: 12px; 
   transform: translateY(-50%);
@@ -313,14 +312,14 @@ img.search-icon{
   width: 105px;
   height: auto;
   cursor: pointer;
->>>>>>> 37c0f9c (Initial commit)
+
 }
 
 .menu-dropdown {   
   display: flex;
   align-items: center;
   margin: 0;
-<<<<<<< HEAD
+
   list-style-type: none;
 }
 
@@ -336,7 +335,7 @@ img.search-icon{
 .menu-dropdown .md-item:hover .submenu-dropdown {
   display: flex; /* Exibe o submenu quando passar o mouse sobre o item */
   background-color:#2190ff;
-=======
+
   padding: 0;
   list-style-type: none;
   position: relative;
@@ -359,12 +358,12 @@ img.search-icon{
 .menu-dropdown .md-item:hover .submenu-dropdown {
   display: flex;
   flex-direction: column;
->>>>>>> 37c0f9c (Initial commit)
+
 }
 
 .menu-dropdown .md-item a {
   color: #ffffff;
-<<<<<<< HEAD
+
   padding: 20px;
   text-decoration: none;
   display: flex;
@@ -378,7 +377,7 @@ img.search-icon{
 .submenu-dropdown .sd-item a {
   width: 100%;
   padding: 16px;
-=======
+
   padding: 10px;
   text-decoration: none;
   display: block;
@@ -455,24 +454,23 @@ main {
 /* Animação */
 .animated-slide {
   animation: slideDown 1.5s ease-out;
->>>>>>> 37c0f9c (Initial commit)
+
 }
 
 @keyframes slideDown {
   0% {
-<<<<<<< HEAD
+
       transform: translateY(-2%);
-=======
+
       transform: translateY(-20px);
->>>>>>> 37c0f9c (Initial commit)
-      opacity: 0;
+     opacity: 0;
   }
   100% {
       transform: translateY(0);
       opacity: 1;
   }
-<<<<<<< HEAD
-=======
+
+
 }
 
 /* Seção Nosso Objetivo */
@@ -694,5 +692,4 @@ footer {
     height: auto;
     cursor: pointer;
   }
->>>>>>> 37c0f9c (Initial commit)
 }
