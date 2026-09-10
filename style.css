@@ -1,0 +1,61 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos da barra superior */
+  img.language-flags div {
+    max-width: 100px;
+  }
+
+  img.search-icon{
+    width: 30px; 
+    height: 30px;
+  }
+  
+  .search-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Animações */
+  .text {
+    animation: slideDown 1.5s ease-out;
+  }
+  
+  .icons img {
+    animation: slideDown 1.5s ease-out;
+  }
+  
+  /* Estilos da seção "Nossos Cursos" */
+  #meio h1 {
+    color: #66b3ff;
+    text-align: left;
+    font-size: 120px;
+  }
+  
+  /* Estilos do banner da escola */
+  header h1 {
+    background-image: url(img/1.jpg);
+    background-size: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Rodapé */
+  main {
+    background-color: #004aad;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  main h1{
+    font-size: 90px
+  }
+  
